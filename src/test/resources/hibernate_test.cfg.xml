@@ -9,11 +9,11 @@
 		<!-- local connection properties -->
 		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-		<property name="hibernate.connection.url">jdbc:mysql://xen-vm-03.training.local/_056_DB</property>
-		<property name="hibernate.connection.username">056db</property>
-		<property name="hibernate.connection.password">056db</property>
+		<property name="hibernate.connection.url">jdbc:mysql://192.168.137.1:3306/omstest</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
 
-		<property name="hibernate.hbm2ddl.auto">validate</property>
+		<property name="hibernate.hbm2ddl.auto">create</property>
 
 		<!--<property name="show_sql">true</property> <property name="format_sql">true</property> -->
 
